@@ -1,0 +1,67 @@
+* {
+    background-color: #FDA1F9;
+}
+
+#yes {
+    background-color: #6FF47C;
+    border-radius: 30px;
+}
+#no {
+    background-color: #FF5A50;
+    border-radius: 30px;
+}
+h1{color: darkred!important;}
+h3{color: darkred!important;}
+h2{color: darkred!important;}
+#retry {
+    background-color: #6FF47C;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+/*media query*/
+
+@media all and (max-width: 600px) {
+    img {
+        margin-left: 5px;
+    }
+    #linha1 {
+        margin-top: 290px;
+    }
+    #chipchip {
+        width: 250px;
+    }
+    #mod_sim {
+        margin-top: 240px;
+    }
+    #gato_triste {
+        width: 250px;
+    }
+    #mod_nao {
+        margin-top: 240px;
+    }
+
+}
+@media all and (min-width: 800px) {
+    #linha1 {
+        margin-top: 180px;
+    }
+    #mod_sim {
+        margin-top: 40px;
+    }
+    #mod_nao {
+        margin-top: 10px;
+    }
+    #gato_triste {
+        width: 900px;
+    }
+}
+#yes {
+    margin-right: 10px;
+}
+#no {
+    margin-left: 10px;
+}
